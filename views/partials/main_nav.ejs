@@ -9,6 +9,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
         
+        <!--Home page Nav-->
           <li class="nav-item">
            <% if (title == "Home" || title=="/"){ %>
           <a class="nav-link active" aria-current="page" href="/home"><i class="fas fa-laptop-house"></i> Home </a>      
@@ -17,6 +18,7 @@
           <%} %>
           </li>
 
+          <!--About Me page Nav-->
           <li class="nav-item">
            <% if (title == "About Me"){ %>
             <a class="nav-link active" aria-current="page" href="/about"><i class="fas fa-info-circle"></i> About Me </a>
@@ -25,6 +27,7 @@
              <%} %>
           </li>
 
+          <!--Services page Nav-->
           <li class="nav-item">
           <% if (title == "Services"){ %>
             <a class="nav-link active" aria-current="page" href="/services"><i class="fas fa-cogs"></i> Services </a>
@@ -33,6 +36,7 @@
             <%} %>
           </li>
 
+          <!--Projects page Nav-->
           <li class="nav-item">
            <% if (title == "Projects"){ %>
             <a class="nav-link active" aria-current="page" href="/projects"><i class="fab fa-elementor"></i> Projects </a>
@@ -41,6 +45,7 @@
             <%} %>
           </li>
 
+          <!--Contact Me page Nav-->
           <li class="nav-item">
           <% if (title == "Contact Me"){ %>
             <a class="nav-link active" aria-current="page" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Me </a>
