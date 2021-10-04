@@ -4,10 +4,10 @@
 
   <main class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Welcome to the <%= title %> page</h1><br>
+      <h1 class="display-4" style="color: #77878B;">Welcome to the <%= title %> page</h1><br>
 
       <% if (title=="Home" || title == "/"){ %>
-      
+
        <%-include partials/home_page.ejs %>
        <% } else if(title=="About Me"){ %>
       <%-include partials/about_page.ejs %>

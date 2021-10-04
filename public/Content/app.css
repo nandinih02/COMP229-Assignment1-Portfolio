@@ -1,5 +1,5 @@
 /*Custom CSS*/
-body {
+/*body {
 	background-color: #B7D5D4;
 	font-family: Verdana, Arial, sans-serif;
     color: #373E40;
@@ -20,7 +20,6 @@ label{
     float: left;
     padding-right: 20px;
 }
-
 #panel{
     width: 500px;
     margin-right: auto;
@@ -28,6 +27,7 @@ label{
     padding: 15px;
     opacity: 0.8;
 }
+
 
 #photos1{
     float: left;
@@ -49,4 +49,4 @@ h1{
 }
 h4{
     color: #305252;
-}
+}*/
